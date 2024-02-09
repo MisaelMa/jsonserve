@@ -1,6 +1,7 @@
 {
   "reservas": [
     {
+      "id": 1,
       "cliente": {
         "nombre": "Nombre del cliente",
         "telefono": "Número de teléfono del cliente",
@@ -12,6 +13,7 @@
       }
     },
     {
+      "id": 2,
       "cliente": {
         "nombre": "Otro Cliente",
         "telefono": "Otro número de teléfono",
