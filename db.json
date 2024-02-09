@@ -1,16 +1,33 @@
 {
-  "posts":[
+  "reservas": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "cliente": {
+        "nombre": "Nombre del cliente",
+        "telefono": "Número de teléfono del cliente",
+        "email": "Correo electrónico del cliente"
+      },
+      "pedido": {
+        "fecha_entrega": "2024-02-09",
+        "hora_entrega": "13:00"
+      }
+    },
+    {
+      "cliente": {
+        "nombre": "Otro Cliente",
+        "telefono": "Otro número de teléfono",
+        "email": "Correo electrónico del otro cliente"
+      },
+      "pedido": {
+        "fecha_entrega": "2024-02-09",
+        "hora_entrega": "15:00"
+      }
     }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "horas_reservadas": {
+    "2024-02-09": ["13:00"],
+    "2024-02-10": ["15:00"]
+crees que puesda ir a dentro o entro json para controlar las horas disponibles  "horas_reservadas": {
+    "2024-02-09": ["13:00"],
+    "2024-02-10": ["15:00"]
+  }
 }
