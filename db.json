@@ -26,8 +26,5 @@
   "horas_reservadas": {
     "2024-02-09": ["13:00"],
     "2024-02-10": ["15:00"]
-crees que puesda ir a dentro o entro json para controlar las horas disponibles  "horas_reservadas": {
-    "2024-02-09": ["13:00"],
-    "2024-02-10": ["15:00"]
   }
 }
